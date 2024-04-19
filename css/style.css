@@ -66,13 +66,18 @@ p {
 }
 
 .bg-light {
-  background: #f4f4f4;
-  color: #f7c08a;
+  color: #f4f4f4;
+  background: #333;
 }
 
 .bg-primary {
-  background: #333;
   color: #333;
+  background: #f7c08a;
+  
+}
+
+.clr {
+  clear:both;
 }
 
 #navbar {
@@ -111,8 +116,9 @@ p {
 }
 
 #showcase {
-  background: url('../img/showcase.jpg') no-repeat center center/cover;
+  background: url('../img/showcase.jpg') no-repeat ;
   height: 600px;
+  
 }
 
 #showcase .showcase-content {
@@ -153,4 +159,23 @@ p {
 
 #home-info .info-content p {
   padding-bottom: 30px;
+}
+
+
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+}
+
+.box i {
+  margin-bottom: 10px;
+}
+
+#main-footer {
+  text-align: center;
+  background: #444;
+  color: #fff;
+  padding: 20px;
 }
